@@ -1,0 +1,66 @@
+body{
+    background-color: #143642;
+    margin: 0;
+    padding: 0;
+    
+}
+
+.container{
+    max-width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+.header{
+    background-color: black;
+    color: white;
+    margin-bottom: 1rem;
+    padding: 1rem
+}
+.image{
+   text-align: center;
+}
+.image img{
+    width: 400px; 
+}
+.input-miles{
+    color: white;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+.input-miles input{
+    padding: 0.5rem;
+    width: 200px;
+    background: transparent;
+    border: none;
+    border-bottom: black 3px solid;
+    border-left: black 3px solid;
+    margin-right: 1rem;
+    color: white;
+}
+
+
+.input-miles button{
+    border-radius: 8px;
+    padding: 0.5rem 1rem;
+    border: none;
+    border: black 2px solid;
+}
+
+.input-miles button:hover{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+.seven-buttons{
+    text-align: center;
+}
+.display-miles{
+    display: inline-block;
+    border: 1px solid white;
+    padding: 1rem 1.5rem;
+    margin: 2rem;   
+    color: white
+}
+
